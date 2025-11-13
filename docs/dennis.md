@@ -189,4 +189,4 @@ sbatch run.sh
 ```
 again. The slurm job id file for evaluating SMLP on MNIST49 is `reports/DennistestingSMLP/slurm-14508000.out`.
 
-I'm still a bit overwhelmed by LUMI or HPC resources in general. First time running `run.sh`  I did the rookie mistake to run `main.py` directly in the LUMI terminal. Luckily I didn't get banned immediately, but only after not finding the slurm job id file I realized I forgot to actually use slurm. Submitting a job and then having to wait until the job is done withouth having verbose feedback through for example status prints is something I need to get used to.
+I'm still a bit overwhelmed by LUMI or HPC resources in general. First time running `run.sh`  I did the rookie mistake to run `main.py` directly in the LUMI terminal. Luckily I didn't get banned immediately, but only after not finding the slurm job id file I realized I forgot to actually use slurm. Submitting a job and then having to wait until the job is done without having verbose feedback through for example status prints is something I need to get used to.
